@@ -144,7 +144,7 @@ proc_vars_title: "Variables del proceso",
     legal_4:
       "La información presentada tiene un carácter informativo, formativo y demostrativo.",
     legal_5:
-      "Cualquier uso, réplica o modificación fuera del entorno académico original es responsabilidad exclusiva de quien lo implemente.",
+      " Las imágenes y diagramas forman parte de un proyecto académico y no están destinadas a su reutilización fuera de este contexto. Cualquier uso, réplica o modificación fuera del entorno académico original es responsabilidad exclusiva de quien lo implemente.",
     legal_6:
       "La UTCJ y los desarrolladores no asumen responsabilidad por daños derivados de usos no previstos.",
 
@@ -309,7 +309,7 @@ proc_vars_title: "Process Variables",
     legal_4:
       "The information presented is for informational, educational, and demonstrative purposes only.",
     legal_5:
-      "Any replication, modification, or implementation outside the original academic context is the sole responsibility of the party performing it.",
+      "The images and diagrams are part an academic project and are not intended for reuse outside of this context. Any replication, modification, or implementation outside the original academic context is the sole responsibility of the party performing it.",
     legal_6:
       "The Universidad Tecnológica de Ciudad Juárez (UTCJ) and the developers assume no liability for unintended or improper use.",
 
