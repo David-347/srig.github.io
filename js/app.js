@@ -353,6 +353,7 @@ document.title = i18n[lang].page_title;
   document.documentElement.lang = lang;
    
   updateTableLabels(lang);
+   updateDiagramsByLanguage(lang);
 }
 
 function updateTableLabels(lang) {
@@ -379,6 +380,52 @@ document.addEventListener("DOMContentLoaded", () => {
   applyLanguage(savedLang);
 });
 
+function updateDiagramsByLanguage(lang) {
+  const diagrams = [
+    {
+      id: "funcArchDiagram",
+      es: {
+        src: "img/arquitectura-funcional_es.png",
+        alt: "Arquitectura funcional del sistema SRIG"
+      },
+      en: {
+        src: "img/arquitectura-funcional_en.png",
+        alt: "Functional architecture of the SRIG system"
+      }
+    },
+    {
+      id: "sysArchDiagram",
+      es: {
+        src: "img/arquitectura_es.png",
+        alt: "Arquitectura del sistema SRIG"
+      },
+      en: {
+        src: "img/arquitectura_en.png",
+        alt: "SRIG system architecture"
+      }
+    },
+    {
+      id: "flowDiagram",
+      es: {
+        src: "img/flujo-operacion_es.png",
+        alt: "Flujo general de operación del sistema SRIG"
+      },
+      en: {
+        src: "img/flujo-operacion_en.png",
+        alt: "General operating flow of the SRIG system"
+      }
+    }
+  ];
+
+  diagrams.forEach(diagram => {
+    const img = document.getElementById(diagram.id);
+    if (!img) return;
+
+    const data = diagram[lang];
+    img.src = data.src;
+    img.alt = data.alt;
+  });
+}
 /* =========================================================
    Theme toggle (light / dark)
    ========================================================= */
