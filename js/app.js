@@ -1,5 +1,6 @@
 
 const i18n = {
+   /* ========================== SPANISH ========================== */
   es: {
 header_title:"Sistema de Riego Inteligente por Goteo",
 page_title: "SRIG · Sistema de Riego Inteligente por Goteo",
@@ -162,9 +163,9 @@ table_lbl_4: "Correo",
     contact_highlight: "Para dudas académicas, mejoras o análisis del sistema, se recomienda canalizarlo por los medios institucionales correspondientes.",
 footer_text: "SRIG · Proyecto académico · UTCJ\n© 2026 · Uso educativo",
   },
-
-  /* ======================================================= */
-
+  
+  /* ========================== ENGLISH ========================== */
+  
   en: {
 header_title:"Smart Drip Irrigation System",
 page_title: "SRIG · Smart Drip Irrigation System",
@@ -330,7 +331,12 @@ footer_text: "SRIG · Academy project · UTCJ\n© 2026 · Educational use",
 };
 
 
+/* =========================================================
+   Language handling
+   ========================================================= */
+
 let currentLang = "es";
+const langBtn = document.getElementById("langToggle");
 
 function applyLanguage(lang) {
 document.title = i18n[lang].page_title;
@@ -339,19 +345,16 @@ document.title = i18n[lang].page_title;
     if (i18n[lang] && i18n[lang][key]) {
       el.textContent = i18n[lang][key];
     }
-
   });
 
   currentLang = lang;
   localStorage.setItem("lang", lang);
-
-  // Actualizar texto del botón
   langBtn.textContent = lang === "es" ? "EN" : "ES";
-document.documentElement.lang = lang;
-
-
-updateTableLabels(lang);
+  document.documentElement.lang = lang;
+   
+  updateTableLabels(lang);
 }
+
 function updateTableLabels(lang) {
   document.querySelectorAll(".info-table tr").forEach(row => {
     row.querySelectorAll("td").forEach((td, index) => {
@@ -363,7 +366,8 @@ function updateTableLabels(lang) {
   });
 }
 
-const langBtn = document.getElementById("langToggle");
+
+
 
 langBtn.addEventListener("click", () => {
   applyLanguage(currentLang === "es" ? "en" : "es");
@@ -374,8 +378,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("lang") || "es";
   applyLanguage(savedLang);
 });
-const btn = document.getElementById("themeToggle");
 
+/* =========================================================
+   Theme toggle (light / dark)
+   ========================================================= */
+const btn = document.getElementById("themeToggle");
 function updateIcon() {
   btn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
 }
@@ -385,13 +392,11 @@ btn.addEventListener("click", () => {
   updateIcon();
 });
 
-
 updateIcon();
 
-// Service worker
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js");
-}
+/* =========================================================
+   Page navigation
+   ========================================================= */
 
 function showPage(id) {
   document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
@@ -417,6 +422,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+/* =========================================================
+   Breadcrumb
+   ========================================================= */
+
 function updateBreadcrumb(id) {
   const bc = document.getElementById("breadcrumb");
 const key = `lb${id}`;
@@ -430,6 +439,10 @@ const text =
 
   bc.innerHTML = `${homeLabel} <span class="sep">›</span> <span>${text}</span>`;
 }
+
+/* =========================================================
+   Service Worker registration
+   ========================================================= */
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
