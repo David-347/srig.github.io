@@ -138,15 +138,15 @@ proc_vars_title: "Variables del proceso",
     legal_1:
       "SRIG (Sistema de Riego Inteligente por Goteo) es un proyecto académico desarrollado exclusivamente con fines educativos como parte de la integradora IPIW32.",
     legal_2:
-      "El desarrollo y documentación del sistema se realizaron bajo un enfoque académico propio de la carrera de Procesos y Operaciones Industriales.",
+      "El diseño, desarrollo e implementación del sistema, así como su documentación técnica y gráfica, se realizaron bajo un enfoque estrictamente académico, correspondiente a la carrera de Procesos y Operaciones Industriales.",
     legal_3:
-      "Este sistema no constituye un producto comercial, industrial o certificado, ni está destinado a implementación masiva.",
+      "Este sistema no constituye un producto comercial, industrial o certificado, ni ha sido diseñado para su comercialización, distribución masiva o implementación fuera del entorno académico para el cual fue concebido.",
     legal_4:
-      "La información presentada tiene un carácter informativo, formativo y demostrativo.",
+      "La información presentada tiene un carácter informativo, formativo y demostrativo, y se proporciona únicamente con fines de análisis, aprendizaje y referencia académica.",
     legal_5:
-      " Las imágenes y diagramas forman parte de un proyecto académico y no están destinadas a su reutilización fuera de este contexto. Cualquier uso, réplica o modificación fuera del entorno académico original es responsabilidad exclusiva de quien lo implemente.",
+      "Las imágenes, diagramas, esquemas y demás recursos visuales forman parte integral de este proyecto académico y no están destinados a su reproducción, reutilización o modificación fuera de este contexto. Cualquier uso, reproducción, adaptación o implementación del sistema fuera del entorno académico original será responsabilidad exclusiva de la persona o entidad que decida llevarlo a cabo.",
     legal_6:
-      "La UTCJ y los desarrolladores no asumen responsabilidad por daños derivados de usos no previstos.",
+      "La Universidad Tecnológica de Ciudad Juárez (UTCJ) y las personas involucradas en el desarrollo del proyecto no asumen responsabilidad alguna por daños, fallas, pérdidas o consecuencias derivadas de usos no previstos, modificaciones no autorizadas o implementaciones fuera del alcance académico definido.",
 
     /* ─────────── Contacto / Tabla ─────────── */
 title_contact: "Contacto",
@@ -303,15 +303,15 @@ proc_vars_title: "Process Variables",
     legal_1:
       "SRIG (Smart Drip Irrigation System) is an academic project developed exclusively for educational purposes as part of the IPIW32 integrative project.",
     legal_2:
-      "The development and documentation of the system were carried out under an academic approach consistent with the Industrial Processes and Operations program.",
+      "The design, development, implementation, and technical and graphical documentation of the system were carried out under a strictly academic approach, within the Industrial Processes and Operations program.",
     legal_3:
-      "This system does not constitute a commercial, industrial, or certified product and is not intended for large-scale implementation.",
+      "This system does not constitute a commercial, industrial, or certified product, nor was it designed for commercialization, mass distribution, or deployment outside the academic environment for which it was originally conceived.",
     legal_4:
-      "The information presented is for informational, educational, and demonstrative purposes only.",
+      "The information presented is of an informational, educational, and demonstrative nature and is provided solely for academic analysis, learning, and reference purposes.",
     legal_5:
-      "The images and diagrams are part an academic project and are not intended for reuse outside of this context. Any replication, modification, or implementation outside the original academic context is the sole responsibility of the party performing it.",
+      "The images, diagrams, schematics, and other visual resources included in this project are an integral part of an academic work and are not intended for reproduction, reuse, or modification outside this context. Any use, reproduction, adaptation, or implementation of the system beyond its original academic setting shall be the sole responsibility of the individual or entity undertaking such actions.",
     legal_6:
-      "The Universidad Tecnológica de Ciudad Juárez (UTCJ) and the developers assume no liability for unintended or improper use.",
+      "The Universidad Tecnológica de Ciudad Juárez (UTCJ) and the individuals involved in the development of this project assume no responsibility or liability for damages, malfunctions, losses, or consequences arising from unintended uses, unauthorized modifications, or implementations outside the defined academic scope.",
 
     /* ─────────── Contact / Table ─────────── */
     title_contact: "Contact",
