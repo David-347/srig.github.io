@@ -385,11 +385,11 @@ function updateDiagramsByLanguage(lang) {
     {
       id: "funcArchDiagram",
       es: {
-        src: "img/arquitectura-funcional_es.png",
+        src: "img/arquitectura-funcional_es.jpg",
         alt: "Arquitectura funcional del sistema SRIG"
       },
       en: {
-        src: "img/arquitectura-funcional_en.png",
+        src: "img/arquitectura-funcional_en.jpg",
         alt: "Functional architecture of the SRIG system"
       }
     },
