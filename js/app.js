@@ -37,6 +37,8 @@ lbinicio: "Inicio",
     purpose_list_5: "Estandarización de la operación del riego",
     purpose_p2:
       "El sistema se desarrolló como un ejercicio práctico de análisis, diseño e implementación de un proceso automatizado en un entorno real.",
+purpose_p3:
+      "Este proyecto permite analizar un sistema real desde la perspectiva de  planeación, ejecución, control y mejora de procesos, alineado con los  objetivos formativos de la carrera de Procesos y Operaciones Industriales.",
 
     /* ─────────── Funcionamiento ─────────── */
     title_operation: "¿Qué hace el sistema?",
@@ -202,7 +204,9 @@ lbinicio: "Home",
     purpose_list_5: "Standardization of irrigation operations",
     purpose_p2:
       "The system was developed as a practical exercise involving the analysis, design, and implementation of an automated process in a real operational environment.",
-
+purpose_p3:
+      "This project allows analyzing a real system from the perspective of planning, execution, control, and process improvement, aligned with the educational objectives of the Industrial Processes and Operations career.",
+     
     /* ─────────── System Operation ─────────── */
     title_operation: "System Operation",
     operation_p1:
