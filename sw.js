@@ -1,4 +1,4 @@
-const CACHE_NAME = "srig-cache-v1";
+const CACHE_NAME = "srig-cache-v2";
 
 const ASSETS_TO_CACHE = [
   "./",
@@ -7,6 +7,8 @@ const ASSETS_TO_CACHE = [
   "./js/main.js",
   "./js/i18n.js",
   "./img/logo-srig.png",
+  "./img/logo-srig-192.png",
+  "./img/logo-srig-512.png",
   "./img/arquitectura.png",
   "./img/arquitectura-funcional.jpg",
   "./img/instalacion-real.jpg",
