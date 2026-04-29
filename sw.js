@@ -9,10 +9,18 @@ const ASSETS_TO_CACHE = [
   "./img/logo-srig.png",
   "./img/logo-srig-192.png",
   "./img/logo-srig-512.png",
+  "./img/screenshot-desktop.png",
+  "./img/screenshot-mobile.png",
   "./img/arquitectura.png",
+  "./img/arquitectura_es.png",
+  "./img/arquitectura_en.png",
   "./img/arquitectura-funcional.jpg",
+  "./img/arquitectura-funcional_en.jpg",
+  "./img/arquitectura-funcional_es.jpg",
   "./img/instalacion-real.jpg",
   "./img/flujo-operacion.png",
+  "./img/flujo-operacion_en.png",
+  "./img/flujo-operacion_es.png",
   "./img/jardin-hj.jpg"
 ];
 
